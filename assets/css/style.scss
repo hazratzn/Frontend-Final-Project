@@ -1,3 +1,4 @@
+
 $color: #233a95;
 $primaryFont: Inter, sans-serif;
 
@@ -302,6 +303,8 @@ $primaryFont: Inter, sans-serif;
     color: #2bbef9;
   }
 }
+//main
+
 #carousel {
   .owl-carousel {
     .item {
@@ -853,6 +856,7 @@ $primaryFont: Inter, sans-serif;
     }
   }
 }
+// footer
 #subscribe {
   .subscribe-box {
     img {
@@ -923,8 +927,13 @@ $primaryFont: Inter, sans-serif;
   .custom-col-2 {
     width: 228px !important;
     .list-group {
+      .second {
+        font-family: $primaryFont !important;
+        font-size: 13px !important;
+      }
       .first {
-        font-size: 18px !important;
+        font-family: $primaryFont;
+        font-size: 14px !important;
         color: black !important;
       }
       .list-group-item {
@@ -976,7 +985,6 @@ $primaryFont: Inter, sans-serif;
         border: 1px solid gray;
         padding: 15px 17px;
         border-radius: 50%;
-        
       }
     }
     .socials {
@@ -988,16 +996,17 @@ $primaryFont: Inter, sans-serif;
       }
     }
   }
-  
 }
 
-#info-website{
+#info-website {
   margin-top: 20px;
-  span{
+  span {
     font-size: 12px;
   }
-  img{
+  img {
     width: 200px;
     height: 30px;
   }
 }
+
+
