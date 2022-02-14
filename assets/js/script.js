@@ -5,7 +5,7 @@
     
 // })
 
-$('.owl-carousel').owlCarousel({
+$('.first-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -39,3 +39,20 @@ clock.setCountdown(true);
 
 // start the clock
 clock.start();
+//card-carousel
+$('.last-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
