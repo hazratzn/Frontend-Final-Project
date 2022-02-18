@@ -1670,8 +1670,84 @@
   text-decoration: none;
 }
 
+#filter {
+  padding-top: 68px;
+}
+
+#filter .brands-status {
+  font-size: 12px;
+}
+
+#filter .product-status span {
+  font-size: 12px;
+}
+
+#filter .range-slider__range {
+  left: 0%;
+  -webkit-appearance: none;
+  width: 88%;
+  height: 4px;
+  border-radius: 5px;
+  background: #202435;
+  outline: none;
+  color: #202435;
+  cursor: pointer;
+}
+
+#filter .range-slider__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #202435;
+  cursor: pointer;
+}
+
+#filter .range-slider__value {
+  display: inline-block;
+  position: relative;
+  width: 60;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  background: #2c3e50;
+  padding: 5px 10px;
+  margin-left: 8px;
+}
+
+#filter .range-slider__value:after {
+  position: absolute;
+  top: 8px;
+  left: -7px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #2c3e50;
+  border-bottom: 7px solid transparent;
+}
+
+#filter h4 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin-bottom: 1.25rem;
+  font-family: "Dosis", sans-serif;
+}
+
+#filter .count-range .money h1 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin-bottom: 1.25rem;
+  font-family: "Dosis", sans-serif;
+}
+
 #filter .grids {
-  background-color: #F7F8FD;
+  background-color: #f7f8fd;
   margin-top: 25px;
   width: 770px;
   height: 56px;
@@ -1686,7 +1762,7 @@
 }
 
 #filter .grids .icons span {
-  font-size: .8125rem;
+  font-size: 0.8125rem;
 }
 
 #filter .grids .icons i {
@@ -1705,12 +1781,12 @@
 
 #filter .txt-img p {
   color: #9b9bb4;
-  font-size: .75rem;
+  font-size: 0.75rem;
   margin-left: -113px;
 }
 
 #filter .txt-img .second-txt {
-  color: #00B853;
+  color: #00b853;
   font-weight: 600;
   font-size: 1.875rem;
 }
@@ -1742,7 +1818,7 @@
 
 #filter .custom-scroll {
   overflow-y: scroll;
-  height: 382px;
+  height: 270px;
 }
 
 #filter .check-boxes {
@@ -1829,5 +1905,177 @@
   font-weight: 600;
   font-size: 15px;
   font-family: Inter, sans-serif;
+}
+
+#filter .col-xl-8 .card-products {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 80%;
+}
+
+#filter .col-xl-8 .card-products:hover {
+  -webkit-box-shadow: 10px 5px 5px #b9b9b9;
+          box-shadow: 10px 5px 5px #b9b9b9;
+}
+
+#filter .col-xl-8 .card-products:hover .btn {
+  visibility: visible !important;
+}
+
+#filter .col-xl-8 .card-products .recom {
+  font-size: 13px;
+  position: absolute;
+  border: 1px solid gray;
+  background-color: gray;
+  border-radius: 4px;
+  color: white;
+  margin: 45px;
+  margin-left: 15px;
+}
+
+#filter .col-xl-8 .card-products .card-img-top {
+  width: 80%;
+  height: 80%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#filter .col-xl-8 .card-products .discount {
+  position: absolute;
+  border: 1px solid #2bbef9;
+  background-color: #2bbef9;
+  border-radius: 4px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px;
+  font-size: 13px;
+  padding: 3px;
+  width: 35px;
+}
+
+#filter .col-xl-8 .card-products .discount p {
+  text-align: center;
+}
+
+#filter .col-xl-8 .card-products .card-body .no-line {
+  color: #ea2b0f;
+  font-size: 20px;
+}
+
+#filter .col-xl-8 .card-products .card-body .count {
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+#filter .col-xl-8 .card-products .card-body .yellows {
+  color: gold;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+#filter .col-xl-8 .card-products .card-body .stock {
+  color: #28a745;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+#filter .col-xl-8 .card-products .card-body .btn {
+  visibility: hidden;
+  background-color: #233a95;
+  border-radius: 30px;
+  width: 90%;
+}
+
+#filter .col-xl-8 .card-products .card-body .card-title {
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.card-products {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 80%;
+}
+
+.card-products:hover {
+  -webkit-box-shadow: 10px 5px 5px #b9b9b9;
+          box-shadow: 10px 5px 5px #b9b9b9;
+}
+
+.card-products:hover .btn {
+  visibility: visible !important;
+}
+
+.card-products .recom {
+  font-size: 13px;
+  position: absolute;
+  border: 1px solid gray;
+  background-color: gray;
+  border-radius: 4px;
+  color: white;
+  margin: 45px;
+  margin-left: 15px;
+}
+
+.card-products .card-img-top {
+  width: 80%;
+  height: 80%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.card-products .discount {
+  position: absolute;
+  border: 1px solid #2bbef9;
+  background-color: #2bbef9;
+  border-radius: 4px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px;
+  font-size: 13px;
+  padding: 3px;
+  width: 35px;
+}
+
+.card-products .discount p {
+  text-align: center;
+}
+
+.card-products .card-body .no-line {
+  color: #ea2b0f;
+  font-size: 20px;
+}
+
+.card-products .card-body .count {
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+.card-products .card-body .yellows {
+  color: gold;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.card-products .card-body .stock {
+  color: #28a745;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.card-products .card-body .btn {
+  visibility: hidden;
+  background-color: #233a95;
+  border-radius: 30px;
+  width: 90%;
+}
+
+.card-products .card-body .card-title {
+  font-size: 13px;
+  font-weight: 650;
 }
 /*# sourceMappingURL=shop.css.map */
